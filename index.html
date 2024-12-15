@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Tours</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+</head>
+<body>
+    <nav>
+        <div class="nav__header">
+            <div class="nav__logo">
+                <a href="#">Fly <span>India.</span></a>
+            </div>
+            <div class="nav__menu__btn" id="menu-btn">
+                <i class='bx bx-menu'></i>
+            </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#package">Package</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav__btns">
+            <button class="btn">Register</button>
+        </div>
+    </nav>
+    <header class="section__container header__container" id="home">
+        <div class="header__content">
+            <h1><span>Let's </span>Create Memorable journey</h1>
+            <p class="section__description">
+                Embark on an unforgettable adventure with us! Discover breathtaking destinations, create lasting memories, 
+                and make every journey remarkable.
+            </p>
+             <form action="/">
+                <div class="input__group">
+                    <label for="location">Location</label>
+                    <input type="text" name="location" placeholder="Bali">
+                </div>
+                <div class="input__group">
+                    <label for="date">Date</label>
+                    <input type="text" name="date" placeholder="25,Dec,2024">
+                </div>
+                <div class="input__group">
+                    <label for="price">Price</label>
+                    <input type="text" name="price" placeholder="20,999">
+                </div>
+                <button class="btn"><i class='bx bx-search-alt'></i></button>
+             </form>
+        </div>
+
+        <div class="header__image">
+            <img src="images/tourist.jpg" alt="header">
+            <img src="images/header-2.jpg" alt="header">
+            <img src="images/header-3.jpg" alt="header">
+            <img src="images/bg.png" alt="bg">
+        </div>
+    </header>
+
+    <section class="section__container choose__container" id="about">
+        <div class="choose__image">
+            <img src="images/airplane.jpg" alt="">
+        </div>
+        <div class="choose__content">
+            <p class="section__subheader">Why Choose Us?</p>
+            <h2 class="section__header">Plan Your Trip <span>With Us</span></h2>
+     
+            <ul class="choose__list">
+                <li>
+                    <span><i class='bx bx-badge-check bx-tada'></i></span>
+                    <div>
+                        <h2>Best Price Gurantee</h2>
+                        <p>
+                            We ensure you get the most competitive rates for your plans, making your dream destinations affordable.
+                        </p>
+                    </div>
+                </li>
+
+                <li>
+                    <span><i class='bx bxs-calendar bx-tada bx-flip-horizontal' ></i></span>
+                    <div>
+                        <h2>Booking Option</h2>
+                        <p>
+                            Experience the ease of flexible booking options tailored to suit your schedule and preferences.
+                        </p>
+                    </div>
+                </li>
+
+                <li>
+                    <span><i class='bx bx-map bx-tada'></i></span>
+                    <div>
+                        <h2>Revising Track Map</h2>
+                        <p>
+                            Navigate your adventure with our personalized track maps designed for seamless and enjoyable travel experiences.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="section__container popular__container" id="package">
+    <img src="images/bg.png" id="popular__bg">
+    <p class="section__subheader">Famous Destination</p>
+    <h2 class="section__header">Our Popular <span>Destination</span></h2>
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="popular__card">
+                    <img src="images/leh-ladak.jpg" alt="">
+                    <div class="popular__content">
+                        <div class="popular__rating">
+                            <span><i class='bx bxs-star bx-spin bx-rotate-90' style='color:#ffa03f'></i></span>4.0(46)😊
+                        </div>
+                        <h4>Leh Ladak</h4>
+                        <p><span>Rs.49,999/- </span>Per Person</p>
+                        <div class="popular__card__footer">
+                            <div>
+                                <span><i class='bx bxs-time bx-spin'></i></span>4 Day's
+                            </div>
+                            <div>
+                                <span><i class='bx bxs-group bx-tada'></i></i></span>15+
+                            </div>
+                            <div>
+                                <span><i class='bx bxs-map bx-tada'></i></span>India
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="popular__card">
+                    <img src="images/Golden_Temple.jpg" alt="">
+                    <div class="popular__content">
+                        <div class="popular__rating">
+                            <span><i class='bx bxs-star bx-spin bx-rotate-90' style='color:#ffa03f'></i></span>4.5(55)😊
+                        </div>
+                        <h4>Golden_Temple, Amritsar</h4>
+                        <p><span>Rs.35,999/- </span>Per Person</p>
+                        <div class="popular__card__footer">
+                            <div>
+                                <span><i class='bx bxs-time bx-spin'></i></span>3 Day's
+                            </div>
+                            <div>
+                                <span><i class='bx bxs-group bx-tada'></i></i></span>9+
+                            </div>
+                            <div>
+                                <span><i class='bx bxs-map bx-tada'></i></span>India
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="popular__card">
+                    <img src="images/goa.jpg" alt="">
+                    <div class="popular__content">
+                        <div class="popular__rating">
+                            <span><i class='bx bxs-star bx-spin bx-rotate-90' style='color:#ffa03f' ></i></span>4.2(95)😊
+                        </div>
+                        <h4>GOA</h4>
+                        <p><span>Rs.19,999/- </span>Per Person</p>
+                        <div class="popular__card__footer">
+                            <div>
+                                <span><i class='bx bxs-time bx-spin'></i></span>4 Day's
+                            </div>
+                            <div>
+                                <span><i class='bx bxs-group bx-tada'></i></i></span>21+
+                            </div>
+                            <div>
+                                <span><i class='bx bxs-map bx-tada'></i></span>India
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="popular__card">
+                    <img src="images/Kedarnath-Temple.jpg" alt="">
+                    <div class="popular__content">
+                        <div class="popular__rating">
+                            <span><i class='bx bxs-star bx-spin bx-rotate-90' style='color:#ffa03f' ></i></span>4.8(35)😊
+                        </div>
+                        <h4>Kedarnath Temple</h4>
+                        <p><span>Rs.20,999/- </span>Per Person</p>
+                        <div class="popular__card__footer">
+                            <div>
+                                <span><i class='bx bxs-time bx-spin' ></i></span>8 Day's
+                            </div>
+                            <div>
+                                <span><i class='bx bxs-group bx-tada' ></i></i></span>10+
+                            </div>
+                            <div>
+                                <span><i class='bx bxs-map bx-tada' ></i></span>India
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="popular__card">
+                    <img src="images/Bali.jpg" alt="">
+                    <div class="popular__content">
+                        <div class="popular__rating">
+                            <span><i class='bx bxs-star bx-spin bx-rotate-90' style='color:#ffa03f' ></i></span>4.8(35)😊
+                        </div>
+                        <h4>Bali</h4>
+                        <p><span>Rs.20,999/- </span>Per Person</p>
+                        <div class="popular__card__footer">
+                            <div>
+                                <span><i class='bx bxs-time bx-spin' ></i></span>8 Day's
+                            </div>
+                            <div>
+                                <span><i class='bx bxs-group bx-tada' ></i></i></span>10+
+                            </div>
+                            <div>
+                                <span><i class='bx bxs-map bx-tada' ></i></span>India
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="popular__card">
+                    <img src="images/Kerala.jpg" alt="">
+                    <div class="popular__content">
+                        <div class="popular__rating">
+                            <span><i class='bx bxs-star bx-spin bx-rotate-90' style='color:#ffa03f' ></i></span>4.0(25)😊
+                        </div>
+                        <h4>Kerala</h4>
+                        <p><span>Rs.22,999/- </span>Per Person</p>
+                        <div class="popular__card__footer">
+                            <div>
+                                <span><i class='bx bxs-time bx-spin'></i></span>5 Day's
+                            </div>
+                            <div>
+                                <span><i class='bx bxs-group bx-tada'></i></i></span>7+
+                            </div>
+                            <div>
+                                <span><i class='bx bxs-map bx-tada'></i></span>India
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container explore__container">
+        <div class="explore__image">
+            <img src="images/happy-customer.jpg">
+        </div>
+        <div class="explore__content">
+            <p class="section__subheader">Explore With Us</p>
+            <h2 class="section__header">Choose Dream Destination For <span>Explore World</span></h2>
+            <p class="section__description">Discover a world of wonders! Select from our curated list of dream destinations and start your journey to explore breathtaking landscapes, vibrant cultures, and unforgettable experiences.</p>
+            <div class="explore__btn">
+                <button class="btn">About us</button>
+            </div>
+            <div class="explore__grid">
+                <div>
+                    <h4>20+</h4>
+                    <p>Year's <br>Experience</p>
+                </div>
+                <div>
+                    <h4>75+</h4>
+                    <p>Destination <br>Celebrations</p>
+                </div>
+                <div>
+                    <h4>550+</h4>
+                    <p>Happy <br>Customers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section__container  client__container">
+        <img src="/images/bg.png"  class="client__bg">
+        <p class="section__subheader">What Our Client Say's?</p>
+        <h2 class="section__header">Client <span>Testimonials</span></h2>
+        <div class="client__card active">
+            <img src="images/client-1.jpg">
+            <div class="client__content">
+                <h4>Kiyara Kapoor</h4>
+                <h5>Travel Blogger</h5>
+                <p>This travel platform turned my bucket list dreams into reality! The booking process was seamless, and their team provided excellent guidance on must-visit spots. Every step felt effortless, and I can't wait to plan my next adventure with them. Highly recommended</p>
+            </div>
+        </div>
+
+        <div class="client__card">
+            <img src="images/client-2.jpg">
+            <div class="client__content">
+                <h4>Sofiya Hansary</h4>
+                <h5>Web Developer </h5>
+                <p>Traveling with this service was a delight! The flexible booking options gave me the freedom to plan at my own pace, and the detaile itineraries ensured I didn't miss anything important. I felt like they genuinely cared about creating the perfect travel experience for me. Absolutely wonderfull</p>
+            </div>
+        </div>
+
+        <div class="client__card">
+            <img src="images/client-3.jpg">
+            <div class="client__content">
+                <h4>Rajesh Rathod</h4>
+                <h5>Photographer</h5>
+                <p>As a photographer, finding picturesque locations is key, and this platform exceeded my expectations. They not only made booking easy but also helped me discover some incredible hidden gems. Their attention to detail made my journey unforgettable and hassle-free!</p>
+            </div>
+        </div>
+        <div class="client__btns">
+            <button class="btn" id="prev">
+                <i class='bx bxs-chevrons-left'></i>
+            </button>
+            <button class="btn" id="next">
+                <i class='bx bxs-chevrons-right'></i>
+            </button>
+        </div>
+    </section>
+
+    <section class="section__container subscribe__container" id="contact">
+        <h2 class="section__header">Subscribe To Get The Latest News <span>About Us</span></h2>
+        <p class="section__description">
+         Stay updated with the latest travel deals, destination highlights, and
+        exclusive offers. Subscribe now and never miss out on exciting news and
+        updates about our services!
+        </p>
+
+        <form action="/">
+            <input type="text" placeholder="Your Email">
+            <button class="btn">subscribe</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="section__container footer__container">
+            <div class="footer__col">
+                <div class="footer__logo">
+                    <a href="#">TravelTour</a>
+                </div>
+                <p>
+                Explore the world with us! Connect through our social media
+                channels, find quick links to essential resources, and access 24/7
+                support to make your travel planning effortless.
+                </p>
+                <ul class="footer__socials">
+                    <li>
+                        <a href="#"><i class='bx bxl-facebook-square'></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4>Services</h4>
+                <ul class="footer__links">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Destination</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4>Instagram</h4>
+                <div class="footer__col__flex">
+                    <img src="images/instagram-1.jpg" alt="">
+                    <img src="images/instagram-2.jpg" alt="">
+                    <img src="images/instagram-3.jpg" alt="">
+                    <img src="images/instagram-4.jpg" alt="">
+                    <img src="images/instagram-5.jpg" alt="">
+                    <img src="images/instagram-6.jpg" alt="">
+                </div>
+            </div>
+            <div class="footer__col">
+                <h4>Contact</h4>
+                <ul class="footer__links">
+                    <li>
+                        <a href="#">
+                            <span><i class='bx bxs-phone'></i> +91 9876543210</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><i class='bx bxs-map-pin'></i> Nagpur , Maharashtra , India</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><i class='bx bxl-gmail'></i> travletour@gmail.com</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__bar">
+            copyright © 2024 Web Design Mastery. All Rights Reserved. 
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+</html>
